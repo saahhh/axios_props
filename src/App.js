@@ -1,7 +1,11 @@
-import './App.css';
-import DogInfo from './DogInfo';
-import UserList from './UserExam';
-import PostComment from './PostComment'
+import "./App.css";
+import DogInfo from "./DogInfo";
+import UserList from "./UserExam";
+import PostComment from "./PostComment";
+import MovieListCarousel from "./MovieListCarousel";
+import TimeOut from "./TimeOut";
+import RowColAlerts from "./RowColAlerts";
+import MovieListPaging from "./MovieListPaging";
 
 function App() {
   return (
@@ -9,8 +13,12 @@ function App() {
       {/*<MovieList /> */}
       {/*<PostAPI /> */}
       {/* <DogInfo />*/}
-     {/* <UserList />*/}
-     <PostComment />
+      {/* <UserList />*/}
+      {/* <PostComment />*/}
+      {/* <MovieListCarousel /> */}
+      {/* <TimeOut /> */}
+      {/*<RowColAlerts /> */}
+      <MovieListPaging />
     </div>
   );
 }
